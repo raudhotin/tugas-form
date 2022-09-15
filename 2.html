@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h2 align='center'> <font color='#9966FF'></font></h2>
+    <form action='proses.php' method='center' cellpadding='0'>
+        <table width="68%" border="0" align="center" cellpadding="0">
+        <tr>
+            <td width='15%'>Nama Depan </td>
+            <td width='2%'>:</td>
+            <td width='83%'><input name='txtNama' type='text' id='txtNama'></td>
+        </tr>
+
+        <tr>
+            <td>Color</td>
+            <td>:</td>
+            <td><input type="color" name='btext' value="black"></td>
+        </tr>
+
+        <tr>
+            <td>Range</td>
+            <td>:</td>
+            <td><input type="range"></td>
+        </tr>
+
+        <tr>
+            <td width='15%'>Nama Belakang </td>
+            <td width='2%'>:</td>
+            <td width='83%'><input name='txtNama' type='text' id='txtNama'></td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td><input name='txtKota' type='text' id='txtKota'</td>
+        </tr>
+
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td><input name="radJk" type="radio" value='1' checked>
+                Laki-laki
+                <input type='radio' name="radJk" value='2'>
+                Perempuan</td>
+        </tr>
+
+        <tr>
+            <td> Tanggal </td>
+            <td>:</td>
+            <td><input name='txtTgl' type='text' id='txtTgl' size="4" maxlength="2">
+            /
+            <input name='txtBulan' type='text' id='txtBulan' size="4" maxlength="2">
+            /
+            <input name='txtTahun' type='text' id='txtTahun' size="8" maxlength="4">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Foto</td>
+            <td>:</td>
+            <td><input type="file" name="foto"><br></td>
+        </tr>
+
+        <tr>
+            <td>Hobby</td>
+            <td>:</td>
+            <td><input name="cekRebahan" type="checkbox" id="cekRebahan" value="1">
+                Rebahan </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><input name="cekSport" type="checkbox" id="cekSport" value="2">
+               Renang </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><input name="cekSing" type="checkbox" id="cekSing" value="3">
+                Makan </td>
+        </tr>
+
+        <tr>
+            <td>Alamat</td>
+            <td>&nbsp;</td>
+            <td><textarea name='txtAlamat' cols='40' rows='2' id='txtAlamat'></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input name="btnKirim" type="submit" id="btnKirim" value="Simpan">
+                <input name="btnCancel" type="reset" id="btnCancel" value="Batal"></td>
+        </tr>
+        </table>
+</body>
+</html>
